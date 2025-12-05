@@ -1,0 +1,143 @@
+/* styles.css
+   Améliorations :
+   - animation fluide de révélation (max-height + opacity)
+   - mieux responsive, focus visible, utilitaires accessibles
+   - styles pour l'image d'illustration responsive
+*/
+
+/* Variables faciles à modifier */
+:root{
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #042675;
+  --muted: #64748b;
+  --primary: #1d4ed8;
+  --accent: #ef4444;
+  --radius: 10px;
+  --container-padding: 1.25rem;
+  --max-width: 1100px;
+  --shadow: 0 6px 20px rgba(0, 49, 163, 0.849);
+  --glass-border: 1px solid rgba(10, 58, 168, 0.733);
+  --transition-fast: 180ms;
+  --transition-med: 320ms;
+}
+
+/* Reset léger */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  line-height:1.45;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Utilities */
+.container{max-width:var(--max-width);margin:0 auto;padding:calc(var(--container-padding) * 1.25)}
+.sr-only{
+  position:absolute!important;
+  width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);
+  white-space:nowrap;border:0;
+}
+.skip-link{
+  position:fixed;left:12px;top:12px;background:#111;color:#fff;padding:6px 10px;border-radius:6px;z-index:999;
+  transform:translateY(-120%);transition:transform var(--transition-fast) ease;
+}
+.skip-link:focus{transform:translateY(0)}
+
+/* Header */
+.site-header{background:linear-gradient(90deg, rgba(29, 79, 216, 0.836), transparent);border-radius:calc(var(--radius) - 2px);margin:1rem}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.75rem}
+.brand{display:flex;align-items:center;gap:.75rem}
+.logo{width:44px;height:44px;border-radius:8px;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;box-shadow:0 6px 18px rgba(29,78,216,0.12)}
+.brand-text .site-sub{font-size:.82rem;color:var(--muted)}
+
+/* Navigation */
+.main-nav .nav-link{color:var(--text);text-decoration:none;margin-left:.75rem;font-weight:600}
+.main-nav .nav-link:hover{text-decoration:underline}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1fr 320px;gap:1rem;align-items:center;padding:2rem 0}
+.hero-content h1{margin:0;font-size:clamp(1.4rem,3.5vw,2.2rem)}
+.lead{color:var(--muted);margin-top:.5rem}
+
+/* Styles pour l'image d'illustration */
+.hero-illustration{display:flex;align-items:center;justify-content:center}
+.hero-img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-width:420px;
+  max-height:260px;
+  border-radius:10px;
+  object-fit:cover;
+  box-shadow:0 8px 30px rgb(1, 29, 150);
+  border:var(--glass-border);
+}
+
+/* CTA buttons */
+.btn{display:inline-block;padding:.5rem .9rem;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-weight:600}
+.btn.primary{background:var(--primary);color:#fff}
+.btn.ghost{background:transparent;border:2px solid rgba(1, 48, 177, 0.897);color:var(--primary)}
+.btn[disabled]{opacity:.5;cursor:not-allowed;}
+
+/* Grid / cards (progressive reveal) */
+/* On utilise une animation sur .card-content pour obtenir une transition douce */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.25rem}
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  border:var(--glass-border);
+  cursor:pointer;
+  outline:none;
+  overflow:hidden; /* nécessaire pour animer la hauteur du contenu */
+  transition:transform var(--transition-fast) ease, box-shadow var(--transition-fast) ease;
+  will-change:transform;
+}
+/* .card-content contient le padding et le texte : on anime sa hauteur/opacité */
+.card-content{
+  padding:1rem;
+  transition:opacity var(--transition-med) ease, transform var(--transition-med) ease, max-height var(--transition-med) ease;
+  max-height:1000px;
+  opacity:1;
+  transform:translateY(0);
+}
+/* état caché : réduit max-height / opacity (évite display:none pour les transitions) */
+.card.hidden .card-content{
+  max-height:0;
+  opacity:0;
+  transform:translateY(8px);
+  padding-top:0;
+  padding-bottom:0;
+}
+
+/* état "relevé" visuel (carte active) */
+.card.revealed{ transform:translateY(-4px); box-shadow: 0 14px 40px rgba(15,23,42,0.12); }
+.card:focus{ box-shadow:0 10px 30px rgba(29,78,216,0.14); border-color:rgba(29,78,216,0.18); }
+
+/* Footer */
+.site-footer{margin-top:2rem;color:var(--muted);font-size:.95rem}
+.footer-inner{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.75rem}
+
+/* Settings panel */
+.settings{position:fixed;right:1rem;bottom:1rem;width:220px;background:var(--card);padding:.75rem;border-radius:10px;box-shadow:0 8px 30px rgba(2,6,23,0.08);border:var(--glass-border);font-size:.9rem}
+.settings h4{margin:0 0 .5rem 0}
+.setting-row{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.4rem 0}
+.settings-actions{display:flex;gap:.5rem;justify-content:flex-end;margin-top:.5rem}
+
+/* Utilities */
+.muted{color:var(--muted);text-decoration:none}
+.hidden{display:none !important}
+
+/* Responsive */
+@media (max-width:880px){
+  .hero{grid-template-columns:1fr}
+  .header-inner{flex-direction:column;align-items:flex-start;gap:.5rem}
+  .footer-inner{flex-direction:column;align-items:flex-start;gap:.5rem}
+  .skip-link{left:8px;top:8px}
+  .hero-img{max-width:100%;max-height:220px}
+}
