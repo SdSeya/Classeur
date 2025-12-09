@@ -61,7 +61,8 @@
         <div class="card-content">
           <h3>La Communauté de l’Anneau (2001)</h3>
           <p>Frodon reçoit l’Anneau Unique et part en quête pour le détruire.</p>
-          <img src="lotr2001.jpg" alt="La Communauté de l’Anneau" />
+          <source srcset="lotr1.jpg" type="image/jpeg">
+          <img class="hero-img" src="lotr1.jpg" alt="Logo Seigneur des Anneaux" />
         </div>
       </article>
 
@@ -70,7 +71,8 @@
         <div class="card-content">
           <h3>Les Deux Tours (2002)</h3>
           <p>La Communauté est séparée, Aragorn mène la bataille du Gouffre de Helm.</p>
-          <img src="lotr2002.jpg" alt="Les Deux Tours" />
+          <source srcset="lotr2.jpg" type="image/jpeg">
+          <img class="hero-img" src="lotr2.jpg" alt="Logo Seigneur des Anneaux" />
         </div>
       </article>
 
@@ -79,7 +81,8 @@
         <div class="card-content">
           <h3>Le Retour du Roi (2003)</h3>
           <p>La bataille finale pour la Terre du Milieu et la destruction de l’Anneau.</p>
-          <img src="lotr2003.jpg" alt="Le Retour du Roi" />
+          <source srcset="lotr3.jpg" type="image/jpeg">
+          <img class="hero-img" src="lotr3.jpg" alt="Logo Seigneur des Anneaux" />
         </div>
       </article>
 
@@ -88,7 +91,8 @@
         <div class="card-content">
           <h3>Le Hobbit : Un voyage inattendu (2012)</h3>
           <p>Bilbo Baggins rejoint les nains pour reprendre Erebor au dragon Smaug.</p>
-          <img src="hobbit2012.jpg" alt="Le Hobbit 2012" />
+          <source srcset="ho1.jpg" type="image/jpeg">
+          <img class="hero-img" src="ho1.jpg" alt="Logo Seigneur des Anneaux" />
         </div>
       </article>
 
@@ -97,7 +101,8 @@
         <div class="card-content">
           <h3>Le Hobbit : La Désolation de Smaug (2013)</h3>
           <p>Bilbo affronte Smaug dans la montagne solitaire.</p>
-          <img src="hobbit2013.jpg" alt="La Désolation de Smaug" />
+          <source srcset="ho2.jpg" type="image/jpeg">
+          <img class="hero-img" src="ho2.jpg" alt="Logo Seigneur des Anneaux" />
         </div>
       </article>
 
@@ -106,7 +111,8 @@
         <div class="card-content">
           <h3>Le Hobbit : La Bataille des Cinq Armées (2014)</h3>
           <p>Les peuples de la Terre du Milieu s’affrontent pour le contrôle d’Erebor.</p>
-          <img src="hobbit2014.jpg" alt="La Bataille des Cinq Armées" />
+          <source srcset="ho3.jpg" type="image/jpeg">
+          <img class="hero-img" src="ho3.jpg" alt="Logo Seigneur des Anneaux" />
         </div>
       </article>
     </section>

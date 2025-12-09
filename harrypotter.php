@@ -47,8 +47,8 @@
 
       <div class="hero-illustration" aria-hidden="false">
         <picture>
-          <source srcset="harrypotter.jpg" type="image/jpeg">
-          <img class="hero-img" src="harrypotter.jpg" alt="Logo Harry Potter" />
+          <source srcset="hp.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp.jpg" alt="Logo Harry Potter" />
         </picture>
       </div>
     </section>
@@ -61,7 +61,8 @@
         <div class="card-content">
           <h3>Harry Potter à l'école des sorciers (2001)</h3>
           <p>Harry découvre qu’il est un sorcier et entre à Poudlard.</p>
-          <img src="hp2001.jpg" alt="Harry Potter 2001" />
+          <source srcset="hp1.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp1.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -70,7 +71,8 @@
         <div class="card-content">
           <h3>Harry Potter et la Chambre des secrets (2002)</h3>
           <p>Harry affronte le Basilic et découvre le journal de Jedusor.</p>
-          <img src="hp2002.jpg" alt="Harry Potter 2002" />
+          <source srcset="hp2.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp2.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -79,7 +81,8 @@
         <div class="card-content">
           <h3>Harry Potter et le Prisonnier d’Azkaban (2004)</h3>
           <p>Harry rencontre Sirius Black et découvre la vérité sur son passé.</p>
-          <img src="hp2004.jpg" alt="Harry Potter 2004" />
+          <source srcset="hp3.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp3.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -88,7 +91,8 @@
         <div class="card-content">
           <h3>Harry Potter et la Coupe de feu (2005)</h3>
           <p>Harry participe au Tournoi des Trois Sorciers et affronte Voldemort.</p>
-          <img src="hp2005.jpg" alt="Harry Potter 2005" />
+          <source srcset="hp4.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp4.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -97,7 +101,8 @@
         <div class="card-content">
           <h3>Harry Potter et l’Ordre du Phénix (2007)</h3>
           <p>Harry fonde l’Armée de Dumbledore et affronte Dolores Ombrage.</p>
-          <img src="hp2007.jpg" alt="Harry Potter 2007" />
+          <source srcset="hp5.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp5.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -106,7 +111,8 @@
         <div class="card-content">
           <h3>Harry Potter et le Prince de sang-mêlé (2009)</h3>
           <p>Harry découvre les Horcruxes et la vérité sur Voldemort.</p>
-          <img src="hp2009.jpg" alt="Harry Potter 2009" />
+          <source srcset="hp6.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp6.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -115,7 +121,8 @@
         <div class="card-content">
           <h3>Harry Potter et les Reliques de la Mort – Partie 1 (2010)</h3>
           <p>Harry, Ron et Hermione partent à la recherche des Horcruxes.</p>
-          <img src="hp2010.jpg" alt="Harry Potter 2010" />
+          <source srcset="hp7.1.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp7.1.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
 
@@ -124,7 +131,8 @@
         <div class="card-content">
           <h3>Harry Potter et les Reliques de la Mort – Partie 2 (2011)</h3>
           <p>La bataille finale à Poudlard oppose Harry à Voldemort.</p>
-          <img src="hp2011.jpg" alt="Harry Potter 2011" />
+          <source srcset="hp7.2.jpg" type="image/jpeg">
+          <img class="hero-img" src="hp7.2.jpg" alt="Logo Harry Potter" />
         </div>
       </article>
     </section>

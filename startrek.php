@@ -61,7 +61,8 @@
         <div class="card-content">
           <h3>Star Trek: The Motion Picture (1979)</h3>
           <p>L’équipage de l’Enterprise affronte une mystérieuse entité spatiale.</p>
-          <img src="st1979.jpg" alt="Star Trek 1979" />
+          <source srcset="st79.jpg" type="image/jpeg">
+          <img class="hero-img" src="st79.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -70,7 +71,8 @@
         <div class="card-content">
           <h3>Star Trek II: The Wrath of Khan (1982)</h3>
           <p>Khan revient pour se venger de Kirk dans l’un des films les plus célèbres de la saga.</p>
-          <img src="st1982.jpg" alt="Wrath of Khan" />
+          <source srcset="st82.jpg" type="image/jpeg">
+          <img class="hero-img" src="st82.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -79,7 +81,8 @@
         <div class="card-content">
           <h3>Star Trek IV: The Voyage Home (1986)</h3>
           <p>L’équipage voyage dans le temps pour sauver des baleines et la Terre.</p>
-          <img src="st1986.jpg" alt="Voyage Home" />
+          <source srcset="st86.jpg" type="image/jpeg">
+          <img class="hero-img" src="st86.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -88,7 +91,8 @@
         <div class="card-content">
           <h3>Star Trek: Generations (1994)</h3>
           <p>Les équipages de Kirk et Picard se rencontrent pour affronter une menace cosmique.</p>
-          <img src="st1994.jpg" alt="Generations" />
+          <source srcset="st94.jpg" type="image/jpeg">
+          <img class="hero-img" src="st94.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -97,7 +101,8 @@
         <div class="card-content">
           <h3>Star Trek: First Contact (1996)</h3>
           <p>Picard et son équipage affrontent les Borgs et voyagent dans le passé.</p>
-          <img src="st1996.jpg" alt="First Contact" />
+          <source srcset="st96.jpg" type="image/jpeg">
+          <img class="hero-img" src="st96.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -106,7 +111,8 @@
         <div class="card-content">
           <h3>Star Trek (2009)</h3>
           <p>Reboot de la saga où Kirk et Spock doivent sauver la Fédération contre Nero.</p>
-          <img src="st2009.jpg" alt="Star Trek 2009" />
+          <source srcset="st09.jpg" type="image/jpeg">
+          <img class="hero-img" src="st09.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -115,7 +121,8 @@
         <div class="card-content">
           <h3>Star Trek Into Darkness (2013)</h3>
           <p>L’Enterprise affronte une menace interne menée par Khan.</p>
-          <img src="st2013.jpg" alt="Into Darkness" />
+          <source srcset="st13.jpg" type="image/jpeg">
+          <img class="hero-img" src="st13.jpg" alt="Logo Star Trek" />
         </div>
       </article>
 
@@ -124,7 +131,8 @@
         <div class="card-content">
           <h3>Star Trek Beyond (2016)</h3>
           <p>L’équipage explore de nouvelles frontières et affronte Krall.</p>
-          <img src="st2016.jpg" alt="Star Trek Beyond" />
+          <source srcset="st16.jpg" type="image/jpeg">
+          <img class="hero-img" src="st16.jpg" alt="Logo Star Trek" />
         </div>
       </article>
     </section>

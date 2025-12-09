@@ -47,8 +47,8 @@
 
       <div class="hero-illustration" aria-hidden="false">
         <picture>
-          <source srcset="fastfurious.jpg" type="image/jpeg">
-          <img class="hero-img" src="fastfurious.jpg" alt="Voitures de Fast & Furious" />
+          <source srcset="ff.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff.jpg" alt="Voitures de Fast & Furious" />
         </picture>
       </div>
     </section>
@@ -61,7 +61,8 @@
         <div class="card-content">
           <h3 class="card-title">The Fast and the Furious (2001)</h3>
           <p class="card-body">Brian O’Conner infiltre le milieu des courses de rue et rencontre Dominic Toretto.</p>
-          <img src="ff2001.jpg" alt="Fast and Furious 2001" />
+          <source srcset="ff1.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff1.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -70,7 +71,8 @@
         <div class="card-content">
           <h3>2 Fast 2 Furious (2003)</h3>
           <p>Brian s’associe à Roman Pearce pour démanteler un cartel à Miami.</p>
-          <img src="ff2003.jpg" alt="2 Fast 2 Furious" />
+          <source srcset="ff2.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff2.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -79,7 +81,8 @@
         <div class="card-content">
           <h3>The Fast and the Furious: Tokyo Drift (2006)</h3>
           <p>Sean Boswell découvre l’univers du drift au Japon.</p>
-          <img src="ff2006.jpg" alt="Tokyo Drift" />
+          <source srcset="ff3.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff3.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -88,7 +91,8 @@
         <div class="card-content">
           <h3>Fast & Furious (2009)</h3>
           <p>Dom et Brian se retrouvent pour affronter un trafiquant de drogue.</p>
-          <img src="ff2009.jpg" alt="Fast & Furious 2009" />
+          <source srcset="ff4.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff4.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -97,7 +101,8 @@
         <div class="card-content">
           <h3>Fast Five (2011)</h3>
           <p>Dom et son équipe affrontent l’agent Hobbs à Rio de Janeiro.</p>
-          <img src="ff2011.jpg" alt="Fast Five" />
+          <source srcset="ff5.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff5.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -106,7 +111,8 @@
         <div class="card-content">
           <h3>Fast & Furious 6 (2013)</h3>
           <p>L’équipe affronte Owen Shaw et découvre que Letty est en vie.</p>
-          <img src="ff2013.jpg" alt="Fast & Furious 6" />
+          <source srcset="ff6.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff6.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -115,7 +121,8 @@
         <div class="card-content">
           <h3>Furious 7 (2015)</h3>
           <p>Deckard Shaw cherche à se venger, l’équipe doit l’arrêter.</p>
-          <img src="ff2015.jpg" alt="Furious 7" />
+          <source srcset="ff7.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff7.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -124,7 +131,8 @@
         <div class="card-content">
           <h3>The Fate of the Furious (2017)</h3>
           <p>Dom trahit son équipe sous l’influence de Cipher.</p>
-          <img src="ff2017.jpg" alt="The Fate of the Furious" />
+          <source srcset="ff8.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff8.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -133,7 +141,8 @@
         <div class="card-content">
           <h3>F9 (2021)</h3>
           <p>Dom affronte son frère Jakob et une nouvelle menace mondiale.</p>
-          <img src="ff2021.jpg" alt="F9" />
+          <source srcset="ff9.jpg" type="image/jpeg">
+          <img class="hero-img" src="ff9.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
 
@@ -142,7 +151,8 @@
         <div class="card-content">
           <h3>Fast X (2023)</h3>
           <p>Dom et sa famille affrontent Dante Reyes, fils d’un ancien ennemi.</p>
-          <img src="ff2023.jpg" alt="Fast X" />
+          <source srcset="ffx.jpg" type="image/jpeg">
+          <img class="hero-img" src="ffx.jpg" alt="Voitures de Fast & Furious" />
         </div>
       </article>
     </section>

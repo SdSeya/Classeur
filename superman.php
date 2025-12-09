@@ -61,7 +61,8 @@
         <div class="card-content">
           <h3 class="card-title">Superman (1978)</h3>
           <p class="card-body">Clark Kent découvre ses pouvoirs et devient Superman pour protéger Metropolis contre Lex Luthor.</p>
-          <img src="superman1978.jpg" alt="Superman 1978" />
+          <source srcset="s1.jpg" type="image/jpeg">
+          <img class="hero-img" src="s1.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -70,7 +71,8 @@
         <div class="card-content">
           <h3 class="card-title">Superman II (1980)</h3>
           <p class="card-body">Superman affronte les criminels kryptoniens menés par le Général Zod.</p>
-          <img src="superman1980.jpg" alt="Superman II" />
+          <source srcset="s2.jpg" type="image/jpeg">
+          <img class="hero-img" src="s2.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -79,7 +81,8 @@
         <div class="card-content">
           <h3 class="card-title">Superman III (1983)</h3>
           <p class="card-body">Superman doit faire face à un nouvel ennemi et à ses propres faiblesses.</p>
-          <img src="superman1983.jpg" alt="Superman III" />
+          <source srcset="s3.jpg" type="image/jpeg">
+          <img class="hero-img" src="mos.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -88,7 +91,8 @@
         <div class="card-content">
           <h3 class="card-title">Superman IV: The Quest for Peace (1987)</h3>
           <p class="card-body">Superman tente d’éliminer toutes les armes nucléaires de la Terre.</p>
-          <img src="superman1987.jpg" alt="Superman IV" />
+          <source srcset="s4.jpg" type="image/jpeg">
+          <img class="hero-img" src="s4.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -97,7 +101,8 @@
         <div class="card-content">
           <h3 class="card-title">Superman Returns (2006)</h3>
           <p class="card-body">Après une longue absence, Superman revient sur Terre pour sauver l’humanité et retrouver Lois Lane.</p>
-          <img src="superman2006.jpg" alt="Superman Returns" />
+          <source srcset="sr.jpg" type="image/jpeg">
+          <img class="hero-img" src="sr.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -106,7 +111,8 @@
         <div class="card-content">
           <h3 class="card-title">Man of Steel (2013)</h3>
           <p class="card-body">Nouvelle version où Superman affronte le Général Zod et accepte son rôle de protecteur.</p>
-          <img src="manofsteel2013.jpg" alt="Man of Steel" />
+          <source srcset="mos.jpg" type="image/jpeg">
+          <img class="hero-img" src="mos.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -114,35 +120,19 @@
       <article class="card hidden" data-index="6" tabindex="0" role="button" aria-expanded="false">
         <div class="card-content">
           <h3 class="card-title">Batman v Superman: Dawn of Justice (2016)</h3>
-          <p class="card-body">Superman et Batman s’affrontent, tandis qu’une nouvelle menace apparaît.</p>
-          <img src="batmanvsuperman2016.jpg" alt="Batman v Superman" />
+          <source srcset="batmanvss.jpg" type="image/jpeg">
+          <img class="hero-img" src="batmanvss.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
-      <!-- Justice League (2017) -->
-      <article class="card hidden" data-index="7" tabindex="0" role="button" aria-expanded="false">
-        <div class="card-content">
-          <h3 class="card-title">Justice League (2017)</h3>
-          <p class="card-body">Superman rejoint Batman, Wonder Woman et les autres héros pour sauver la Terre.</p>
-          <img src="justiceleague2017.jpg" alt="Justice League" />
-        </div>
-      </article>
-
-      <!-- Zack Snyder’s Justice League (2021) -->
-      <article class="card hidden" data-index="8" tabindex="0" role="button" aria-expanded="false">
-        <div class="card-content">
-          <h3 class="card-title">Zack Snyder’s Justice League (2021)</h3>
-          <p class="card-body">Version alternative et plus complète de Justice League.</p>
-          <img src="justiceleague2021.jpg" alt="Zack Snyder’s Justice League" />
-        </div>
-      </article>
 
       <!-- Superman: Legacy (2025) -->
       <article class="card hidden" data-index="9" tabindex="0" role="button" aria-expanded="false">
         <div class="card-content">
           <h3 class="card-title">Superman: Legacy (2025)</h3>
           <p class="card-body">Prochain film réalisé par James Gunn, une nouvelle interprétation de l’Homme d’Acier.</p>
-          <img src="supermanlegacy2025.jpg" alt="Superman Legacy" />
+          <source srcset="sl25.jpg" type="image/jpeg">
+          <img class="hero-img" src="sl25.jpg" alt="Attaque des clones" />
         </div>
       </article>
     </section>

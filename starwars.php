@@ -47,8 +47,8 @@
 
       <div class="hero-illustration" aria-hidden="false">
         <picture>
-          <source srcset="starwars.jpg" type="image/jpeg">
-          <img class="hero-img" src="starwars.jpg" alt="Logo Star Wars" />
+          <source srcset="sw.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw.jpg" alt="Logo Star Wars" />
         </picture>
       </div>
     </section>
@@ -61,7 +61,8 @@
         <div class="card-content">
           <h3>Un nouvel espoir (1977)</h3>
           <p>Luke Skywalker rejoint la Rébellion pour détruire l’Étoile de la Mort.</p>
-          <img src="sw1977.jpg" alt="Star Wars 1977" />
+          <source srcset="sw1977.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw1977.jpg" alt="Star Wars 1977" />
         </div>
       </article>
 
@@ -70,7 +71,8 @@
         <div class="card-content">
           <h3>L’Empire contre-attaque (1980)</h3>
           <p>Les rebelles affrontent l’Empire, Luke découvre la vérité sur Dark Vador.</p>
-          <img src="sw1980.jpg" alt="Empire contre-attaque" />
+          <source srcset="sw1980.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw1980.jpg" alt="Empire contre-attaque" />
         </div>
       </article>
 
@@ -79,7 +81,8 @@
         <div class="card-content">
           <h3>Le Retour du Jedi (1983)</h3>
           <p>Luke affronte Vador et l’Empereur, l’Alliance détruit la seconde Étoile de la Mort.</p>
-          <img src="sw1983.jpg" alt="Retour du Jedi" />
+          <source srcset="sw1983.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw1983.jpg" alt="Retour du Jedi" />
         </div>
       </article>
 
@@ -88,7 +91,8 @@
         <div class="card-content">
           <h3>La Menace fantôme (1999)</h3>
           <p>Les Jedi découvrent Anakin Skywalker et affrontent Dark Maul.</p>
-          <img src="sw1999.jpg" alt="Menace fantôme" />
+          <source srcset="sw1999.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw1999.jpg" alt="Menace fantôme" />
         </div>
       </article>
 
@@ -97,7 +101,8 @@
         <div class="card-content">
           <h3>L’Attaque des clones (2002)</h3>
           <p>Anakin et Padmé se rapprochent, la guerre des clones commence.</p>
-          <img src="sw2002.jpg" alt="Attaque des clones" />
+          <source srcset="sw2002.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw2002.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
@@ -106,7 +111,8 @@
         <div class="card-content">
           <h3>La Revanche des Sith (2005)</h3>
           <p>Anakin bascule du côté obscur et devient Dark Vador.</p>
-          <img src="sw2005.jpg" alt="Revanche des Sith" />
+          <source srcset="sw2005.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw2005.jpg" alt="Revanche des Sith" />
         </div>
       </article>
 
@@ -115,7 +121,8 @@
         <div class="card-content">
           <h3>Le Réveil de la Force (2015)</h3>
           <p>Rey découvre ses pouvoirs, Kylo Ren menace la galaxie.</p>
-          <img src="sw2015.jpg" alt="Réveil de la Force" />
+          <source srcset="sw2015.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw2015.jpg" alt="Réveil de la Force" />
         </div>
       </article>
 
@@ -124,7 +131,8 @@
         <div class="card-content">
           <h3>Les Derniers Jedi (2017)</h3>
           <p>Rey s’entraîne avec Luke, la Résistance lutte contre le Premier Ordre.</p>
-          <img src="sw2017.jpg" alt="Derniers Jedi" />
+          <source srcset="sw2017.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw2017.jpg" alt="Derniers Jedi" />
         </div>
       </article>
 
@@ -133,7 +141,8 @@
         <div class="card-content">
           <h3>L’Ascension de Skywalker (2019)</h3>
           <p>Rey affronte Palpatine, la saga Skywalker se conclut.</p>
-          <img src="sw2019.jpg" alt="Ascension de Skywalker" />
+          <source srcset="sw2019.jpg" type="image/jpeg">
+          <img class="hero-img" src="sw2019.jpg" alt="Ascension de Skywalker" />
         </div>
       </article>
     </section>

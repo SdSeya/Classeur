@@ -1,207 +1,146 @@
 <?php
 // accueil.php
+// Page d’accueil avec recherche et navigation
 
+// Tableau de correspondance titres -> pages
 $films = [
-    "avengers" => [
-        "titre" => "Classeur - Film: Avengers",
-        "lien"  => "index.php"
-    ],
-    "batman" => [
-        "titre" => "Classeur - Film: Batman",
-        "lien"  => "batman.php"
-    ],
-    "iron man" => [
-        "titre" => "Classeur - Film: Iron Man",
-        "lien"  => "ironman.php"
-    ],
-    "spiderman" => [
-        "titre" => "Classeur - Film: Spider-Man",
-        "lien"  => "spiderman.php"
-    ],
-    "superman" => [
-        "titre" => "Classeur - Film: Superman",
-        "lien"  => "superman.php"
-    ],
-    "star wars" => [
-        "titre" => "Classeur - Film: Star Wars",
-        "lien"  => "starwars.php"
-    ],
-    "star trek" => [
-        "titre" => "Classeur - Film: Star Trek",
-        "lien"  => "startrek.php"
-    ],
-    "seigneur des anneaux" => [
-        "titre" => "Classeur - Film: Le Seigneur des Anneaux",
-        "lien"  => "lordoftherings.php"
-    ],
-    "harry potter" => [
-        "titre" => "Classeur - Film: Harry Potter",
-        "lien"  => "harrypotter.php"
-    ],
-    "fast and furious" => [
-        "titre" => "Classeur - Film: Fast & Furious",
-        "lien"  => "fastandfurious.php"
-    ]
+    // Films
+    "avengers" => "index.php",
+    "iron man" => "ironman.php",
+    "spider-man" => "spiderman.php",
+    "batman" => "batman.php",
+    "superman" => "superman.php",
+    "star wars" => "starwars.php",
+    "star trek" => "startrek.php",
+    "le seigneur des anneaux" => "lordoftherings.php",
+    "harry potter" => "harrypotter.php",
+    "fast & furious" => "fastandfurious.php",
+    // Séries
+    "the flash" => "flash.php",
+    "arrow" => "arrow.php",
+    "supergirl" => "supergirl.php",
+    "legends of tomorrow" => "legendsoftomorrow.php",
+    "black lightning" => "blacklightning.php",
+    "batwoman" => "batwoman.php",
+    "superman & lois" => "supermanandlois.php",
+    "gotham" => "gotham.php",
+    "smallville" => "smallville.php",
+    "constantine" => "constantine.php",
+    "stargirl" => "stargirl.php",
+    "titans" => "titans.php",
+    // Pages complètes
+    "films" => "movies_list.php",
+    "séries" => "serie.php"
 ];
 
+$messageErreur = "";
 
-$searchQuery = "";
-$result = null;
-if (isset($_GET['query'])) {
-    $searchQuery = strtolower(trim($_GET['query']));
-    foreach ($films as $key => $film) {
-        if ($searchQuery === strtolower($key)) {
-            $result = $film;
-            break;
-        }
+// Vérifie si une recherche est soumise
+if (isset($_GET['film'])) {
+    $recherche = strtolower(trim($_GET['film']));
+    if (array_key_exists($recherche, $films)) {
+        header("Location: " . $films[$recherche]);
+        exit;
+    } else {
+        $messageErreur = "❌ Désolé, le titre « " . htmlspecialchars($_GET['film']) . " » n’a pas été trouvé.";
     }
 }
 ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Classeur - Accueil</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🗄️ Classeur - Accueil</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #00003dff, #00196dff);
-      margin:0;
-      padding:0;
-      text-align:center;
-      color:#333;
+      background: linear-gradient(135deg, #004080, #001933);
+      margin:0; padding:0; color:#fff;
     }
     header {
       background: linear-gradient(90deg, #007BFF, #0056b3);
-      color:#fff;
-      padding:25px;
+      padding:25px; text-align:center;
       box-shadow:0 2px 8px rgba(0,0,0,0.2);
     }
-    nav a {
-      margin:0 15px;
-      text-decoration:none;
-      color:#fff;
-      font-weight:bold;
-      transition:color 0.3s;
+    nav a { margin:0 15px; text-decoration:none; color:#fff; font-weight:bold; }
+    nav a:hover { color:#ffd700; }
+    main { margin:40px auto; max-width:600px; text-align:center; }
+    input[type="text"] {
+      padding:12px; width:80%; border-radius:8px; border:none;
+      font-size:16px; margin-top:20px;
     }
-    nav a:hover {
-      color:#ffd700;
-    }
-    main {
-      margin-top:50px;
-    }
-    .search-container {
-      margin-top:30px;
-      display:flex;
-      justify-content:center;
-    }
-    .search-bar {
-      width:350px;
-      padding:12px;
-      border:1px solid #ccc;
-      border-radius:25px;
-      font-size:16px;
-      outline:none;
-      transition:border 0.3s;
-    }
-    .search-bar:focus {
-      border-color:#007BFF;
-    }
-    .search-button {
-      padding:12px 20px;
-      margin-left:10px;
-      background:linear-gradient(90deg, #28a745, #218838);
-      color:white;
-      border:none;
-      border-radius:25px;
-      cursor:pointer;
-      font-size:16px;
-      font-weight:bold;
-      transition:transform 0.2s, background 0.3s;
-    }
-    .search-button:hover {
-      background:linear-gradient(90deg, #218838, #1e7e34);
-      transform:scale(1.05);
-    }
-    .result {
-      margin-top:40px;
-      font-size:18px;
-    }
-    .card {
-      background:#fff;
-      border-radius:12px;
-      margin:20px auto;
-      padding:25px;
-      max-width:500px;
-      box-shadow:0 4px 12px rgba(0,0,0,0.15);
-      transition:transform 0.3s;
-    }
-    .card:hover {
-      transform:translateY(-5px);
-    }
-    .card h3 {
-      margin-top:0;
-      color:#007BFF;
-    }
-    .card a {
-      display:inline-block;
-      margin-top:15px;
-      padding:15px 25px;
+    button {
+      margin-top:15px; padding:10px 20px;
       background:linear-gradient(90deg, #007BFF, #0056b3);
-      color:#fff;
-      border-radius:30px;
-      text-decoration:none;
-      font-size:18px;
-      font-weight:bold;
-      transition:background 0.3s, transform 0.2s;
+      color:#fff; border:none; border-radius:30px;
+      font-size:16px; font-weight:bold; cursor:pointer;
     }
-    .card a:hover {
-      background:linear-gradient(90deg, #0056b3, #004080);
-      transform:scale(1.05);
+    button:hover { background:linear-gradient(90deg, #0056b3, #004080); }
+    .error {
+      margin-top:20px; padding:15px;
+      background:#ffdddd; color:#900;
+      border:1px solid #900; border-radius:8px;
+      font-weight:bold;
     }
     footer {
-      margin-top:60px;
-      padding:20px;
-      background:#f1f1f1;
-      color:#555;
-      font-size:14px;
+      margin-top:60px; padding:20px; background:#f1f1f1;
+      text-align:center; color:#333;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🎬 Bienvenue sur la page d'accueil</h1>
+    <h1>🗄️ Bienvenue dans le Classeur</h1>
     <nav>
-      <a href="accueil.php">Accueil</a>
       <a href="movies_list.php">Films</a>
+      <a href="serie.php">Séries</a>
     </nav>
   </header>
-<main>
-    <!-- Barre de recherche -->
-    <div class="search-container">
-      <form action="accueil.php" method="GET">
-        <input type="text" name="query" placeholder="Rechercher un film..." class="search-bar" />
-        <button type="submit" class="search-button">🔍 Rechercher</button>
-      </form>
-    </div>
 
-    <!-- Résultat de recherche -->
-    <?php if (!empty($searchQuery)): ?>
-      <div class="result">
-        <?php if ($result): ?>
-          <div class="card">
-            <h3><?php echo htmlspecialchars($result['titre']); ?></h3>
-            <a href="<?php echo htmlspecialchars($result['lien']); ?>">➡ Voir les détails</a>
-          </div>
-        <?php else: ?>
-          <p>Aucun résultat trouvé pour : <strong><?php echo htmlspecialchars($searchQuery); ?></strong></p>
-        <?php endif; ?>
-      </div>
+  <main>
+    <h2>🔎 Recherche</h2>
+    <form method="get" action="">
+      <input type="text" name="film" list="filmsList" placeholder="Tapez un titre de film ou série...">
+      <datalist id="filmsList">
+        <!-- Films -->
+        <option value="Avengers">
+        <option value="Iron Man">
+        <option value="Spider-Man">
+        <option value="Batman">
+        <option value="Superman">
+        <option value="Star Wars">
+        <option value="Star Trek">
+        <option value="Le Seigneur des Anneaux">
+        <option value="Harry Potter">
+        <option value="Fast & Furious">
+        <!-- Séries -->
+        <option value="The Flash">
+        <option value="Arrow">
+        <option value="Supergirl">
+        <option value="Legends of Tomorrow">
+        <option value="Black Lightning">
+        <option value="Batwoman">
+        <option value="Superman & Lois">
+        <option value="Gotham">
+        <option value="Smallville">
+        <option value="Constantine">
+        <option value="Stargirl">
+        <option value="Titans">
+        <!-- Pages complètes -->
+        <option value="Films">
+        <option value="Séries">
+      </datalist>
+      <button type="submit">Rechercher</button>
+    </form>
+
+    <?php if ($messageErreur): ?>
+      <div class="error"><?php echo $messageErreur; ?></div>
     <?php endif; ?>
   </main>
 
   <footer>
-    <p>© <?php echo date('Y'); ?> Mon site de films</p>
+    <p>© <?php echo date('Y'); ?> Mon site</p>
   </footer>
 </body>
 </html>
