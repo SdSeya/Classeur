@@ -45,8 +45,6 @@
   <header>
     <h1>🗄️ Bienvenue dans le Classeur</h1>
     <nav>
-      <a href="movies_list.php">Films</a>
-      <a href="serie.php">Séries</a>
       <a href="accueil.php">Recherche</a>
     </nav>
   </header>

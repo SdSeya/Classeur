@@ -91,7 +91,7 @@ if (isset($_GET['film'])) {
 </head>
 <body>
   <header>
-    <h1>🗄️ Bienvenue dans le Classeur</h1>
+    <h1>Recherche</h1>
     <nav>
       <a href="movies_list.php">Films</a>
       <a href="serie.php">Séries</a>
