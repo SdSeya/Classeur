@@ -54,7 +54,6 @@
   </header>
 
   <main>
-    <p>Sélectionne un film pour accéder à sa page dédiée :</p>
     <div class="cards-grid">
       <div class="card"><h3>Avengers</h3><p>Découvre les aventures des plus grands héros réunis.</p><a href="index.php">➡ Voir la page Avengers</a></div>
       <div class="card"><h3>Iron Man</h3><p>Explore l’histoire de Tony Stark et son armure high-tech.</p><a href="ironman.php">➡ Voir la page Iron Man</a></div>

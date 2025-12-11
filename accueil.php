@@ -95,6 +95,7 @@ if (isset($_GET['film'])) {
     <nav>
       <a href="movies_list.php">Films</a>
       <a href="serie.php">Séries</a>
+      <a href="presentation.php">Accueil Pincipal</a>
     </nav>
   </header>
 
