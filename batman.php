@@ -108,7 +108,7 @@ $revealsJson = json_encode($revealsByMovie, JSON_HEX_TAG | JSON_HEX_AMP | JSON_H
         <nav class="main-nav" role="navigation" aria-label="Navigation principale">
   <a href="accueil.php" class="nav-link">Accueil</a>
   <a href="movies_list.php" class="nav-link">Films</a>
-  <a href="contact.php" class="nav-link">Contact</a>
+  <a href="serie.php" class="nav-link">Series</a>
       </nav>
     </div>
   </header>

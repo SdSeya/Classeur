@@ -26,7 +26,7 @@
       <nav class="main-nav" role="navigation" aria-label="Navigation principale">
         <a href="accueil.php" class="nav-link">Accueil</a>
         <a href="movies_list.php" class="nav-link">Films</a>
-        <a href="contact.php" class="nav-link">Contact</a>
+        <a href="serie.php" class="nav-link">Series</a>
       </nav>
     </div>
   </header>
