@@ -82,7 +82,7 @@
           <h3 class="card-title">Superman III (1983)</h3>
           <p class="card-body">Superman doit faire face à un nouvel ennemi et à ses propres faiblesses.</p>
           <source srcset="s3.jpg" type="image/jpeg">
-          <img class="hero-img" src="mos.jpg" alt="Attaque des clones" />
+          <img class="hero-img" src="s3.jpg" alt="Attaque des clones" />
         </div>
       </article>
 
