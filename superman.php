@@ -120,6 +120,7 @@
       <article class="card hidden" data-index="6" tabindex="0" role="button" aria-expanded="false">
         <div class="card-content">
           <h3 class="card-title">Batman v Superman: Dawn of Justice (2016)</h3>
+          <p class="card-body">Craignant que Superman abuse de sa puissance quasi divine, Bruce Wayne/Batman décide de l’affronter. Le monde est divisé : certains voient Superman comme un sauveur, d’autres comme une menace. Pendant que les deux héros s’affrontent, Lex Luthor manipule les événements et une nouvelle menace surgit, forçant Batman et Superman à unir leurs forces avec Wonder Woman pour sauver l’humanité.</p>
           <source srcset="batmanvss.jpg" type="image/jpeg">
           <img class="hero-img" src="batmanvss.jpg" alt="Attaque des clones" />
         </div>
@@ -130,7 +131,7 @@
       <article class="card hidden" data-index="9" tabindex="0" role="button" aria-expanded="false">
         <div class="card-content">
           <h3 class="card-title">Superman: Legacy (2025)</h3>
-          <p class="card-body">Prochain film réalisé par James Gunn, une nouvelle interprétation de l’Homme d’Acier.</p>
+          <p class="card-body">Superman est confronté à des conflits partout dans le monde. Ses interventions, censées protéger l’humanité, commencent à susciter des doutes et des critiques. Profitant de cette vulnérabilité, Lex Luthor, milliardaire de la tech et manipulateur redoutable, tente de l’éliminer définitivement</p>
           <source srcset="sl25.jpg" type="image/jpeg">
           <img class="hero-img" src="sl25.jpg" alt="Attaque des clones" />
         </div>

@@ -54,7 +54,6 @@
   </header>
 
   <main>
-    <p>Sélectionne une série pour accéder à sa page dédiée :</p>
     <div class="cards-grid">
       <div class="card"><h3>The Flash</h3><p>Les aventures de Barry Allen alias The Flash.</p><a href="flash.php">➡ Voir la page Flash</a></div>
       <div class="card"><h3>Arrow</h3><p>L’histoire d’Oliver Queen devenu le justicier Arrow.</p><a href="arrow.php">➡ Voir la page Arrow</a></div>
