@@ -1,3 +1,6 @@
+<?php
+// accueil.php
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -15,47 +18,58 @@
       padding:25px; text-align:center;
       box-shadow:0 2px 8px rgba(0,0,0,0.2);
     }
-    nav a { margin:0 15px; text-decoration:none; color:#fff; font-weight:bold; }
+    nav a {
+      margin:0 15px; text-decoration:none; color:#fff; font-weight:bold;
+      transition: color 0.3s ease;
+    }
     nav a:hover { color:#ffd700; }
-    main { margin:40px auto; max-width:600px; text-align:center; }
-    input[type="text"] {
-      padding:12px; width:80%; border-radius:8px; border:none;
-      font-size:16px; margin-top:20px;
+    main {
+      margin:60px auto; max-width:700px; text-align:center;
     }
-    button {
-      margin-top:15px; padding:10px 20px;
+    h2 {
+      font-size:2em; margin-bottom:20px; color:#ffd700;
+    }
+    p {
+      font-size:1.2em; line-height:1.6; color:#ddd;
+    }
+    .cta {
+      margin-top:30px;
+    }
+    .cta a {
+      display:inline-block; padding:12px 25px;
       background:linear-gradient(90deg, #007BFF, #0056b3);
-      color:#fff; border:none; border-radius:30px;
-      font-size:16px; font-weight:bold; cursor:pointer;
+      color:#fff; border-radius:30px; text-decoration:none;
+      font-weight:bold; font-size:16px;
+      transition: transform 0.3s ease, background 0.3s ease;
     }
-    button:hover { background:linear-gradient(90deg, #0056b3, #004080); }
-    .error {
-      margin-top:20px; padding:15px;
-      background:#ffdddd; color:#900;
-      border:1px solid #900; border-radius:8px;
-      font-weight:bold;
+    .cta a:hover {
+      background:linear-gradient(90deg, #0056b3, #004080);
+      transform:scale(1.05);
     }
     footer {
-      margin-top:60px; padding:20px; background:#f1f1f1;
+      margin-top:80px; padding:20px; background:#f1f1f1;
       text-align:center; color:#333;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🗄️ Bienvenue dans le Classeur</h1>
+    <h1>🗄️ Bienvenue dans le Classeur 🗄️</h1>
     <nav>
-      <a href="accueil.php">Recherche</a>
+      <a href="accueil.php">🔍 Recherche</a>
     </nav>
   </header>
 
   <main>
-    <h2>Bienvenue dans le Classeur</h2>
-    <p>Retrouvez ici des détail de film, de série, de jeux vidéo et bien plus...</p>
+    <h2>Explorez vos univers préférés</h2>
+    <p>
+      Retrouvez ici des détails captivants sur vos <strong>films</strong>, <strong>séries</strong>, 
+      <strong>jeux vidéo</strong> et bien plus encore.<br>
+      Plongez dans un monde de divertissement à portée de clic.
+    </p>
+    <div class="cta">
+      <a href="fets.php">➡ Commencer l’exploration</a>
+    </div>
   </main>
-
-  <footer>
-    <p>© <?php echo date('Y'); ?> Mon site</p>
-  </footer>
 </body>
 </html>

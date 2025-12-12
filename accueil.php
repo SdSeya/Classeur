@@ -70,6 +70,20 @@ if (isset($_GET['film'])) {
       padding:12px; width:80%; border-radius:8px; border:none;
       font-size:16px; margin-top:20px;
     }
+    .cta {
+      margin-top:30px;
+    }
+    .cta a {
+      display:inline-block; padding:12px 25px;
+      background:linear-gradient(90deg, #007BFF, #0056b3);
+      color:#fff; border-radius:30px; text-decoration:none;
+      font-weight:bold; font-size:16px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .cta a:hover {
+      background:linear-gradient(90deg, #0056b3, #004080);
+      transform:scale(1.05);
+    }
     button {
       margin-top:15px; padding:10px 20px;
       background:linear-gradient(90deg, #007BFF, #0056b3);
@@ -91,11 +105,10 @@ if (isset($_GET['film'])) {
 </head>
 <body>
   <header>
-    <h1>Recherche</h1>
+    <h1>🔍 Recherche 🔍</h1>
     <nav>
-      <a href="movies_list.php">Films</a>
-      <a href="serie.php">Séries</a>
-      <a href="presentation.php">Accueil Pincipal</a>
+      <a href="movies_list.php">🎬 Films</a>
+      <a href="serie.php">📺 Séries</a>
     </nav>
   </header>
 
@@ -141,6 +154,9 @@ if (isset($_GET['film'])) {
   </main>
 
   <footer>
+    <div class="cta">
+    <a href="presentation.php">Retourner à l'accueil</a>
+    </div>
     <p>© <?php echo date('Y'); ?> Mon site</p>
   </footer>
 </body>

@@ -46,10 +46,10 @@
 </head>
 <body>
   <header>
-    <h1>📺 Classeur - Liste des séries</h1>
+    <h1>📺 Classeur - Liste des séries 📺</h1>
     <nav>
-      <a href="accueil.php">Accueil</a>
-      <a href="movies_list.php">Films</a>
+      <a href="accueil.php">🔍 Recherche</a>
+      <a href="movies_list.php">🎬 Films</a>
     </nav>
   </header>
 
