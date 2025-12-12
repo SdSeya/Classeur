@@ -4,33 +4,51 @@
 
 // Tableau de correspondance titres -> pages
 $films = [
-    // Films
-    "avengers" => "index.php",
-    "iron man" => "ironman.php",
-    "spider-man" => "spiderman.php",
-    "batman" => "batman.php",
-    "superman" => "superman.php",
-    "star wars" => "starwars.php",
-    "star trek" => "startrek.php",
-    "le seigneur des anneaux" => "lordoftherings.php",
-    "harry potter" => "harrypotter.php",
-    "fast & furious" => "fastandfurious.php",
-    // Séries
-    "the flash" => "flash.php",
-    "arrow" => "arrow.php",
-    "supergirl" => "supergirl.php",
-    "legends of tomorrow" => "legendsoftomorrow.php",
-    "black lightning" => "blacklightning.php",
-    "batwoman" => "batwoman.php",
-    "superman & lois" => "supermanandlois.php",
-    "gotham" => "gotham.php",
-    "smallville" => "smallville.php",
-    "constantine" => "constantine.php",
-    "stargirl" => "stargirl.php",
-    "titans" => "titans.php",
-    // Pages complètes
-    "films" => "movies_list.php",
-    "séries" => "serie.php"
+"avengers" => "index.php",
+"iron man" => "ironman.php",
+"spider-man" => "spiderman.php",
+"batman" => "batman.php",
+"superman" => "superman.php",
+"star wars" => "starwars.php",
+"star trek" => "startrek.php",
+"le seigneur des anneaux" => "lordoftherings.php",
+"harry potter" => "harrypotter.php",
+"fast & furious" => "fastandfurious.php",
+// Séries
+"the flash" => "flash.php",
+"arrow" => "arrow.php",
+"supergirl" => "supergirl.php",
+"legends of tomorrow" => "legendsoftomorrow.php",
+"black lightning" => "blacklightning.php",
+"batwoman" => "batwoman.php",
+"superman & lois" => "supermanandlois.php",
+"gotham" => "gotham.php",
+"smallville" => "smallville.php",
+"constantine" => "constantine.php",
+"stargirl" => "stargirl.php",
+"titans" => "titans.php",
+// Jeux Vidéo
+"the legend of zelda" => "zelda.php",
+"super mario" => "mario.php",
+"pokémon" => "pokemon.php",
+"halo" => "halo.php",
+"league of legends" => "lol.php",
+"diablo" => "diablo.php",
+"half-life" => "halflife.php",
+"starcraft" => "starcraft.php",
+"counter-strike" => "counterstrike.php",
+"world of warcraft" => "wow.php",
+"the witcher" => "witcher.php",
+"minecraft" => "minecraft.php",
+"fortnite" => "fortnite.php",
+"call of duty" => "callofduty.php",
+"assassin’s creed" => "assassinscreed.php",
+"final fantasy" => "finalfantasy.php",
+// Pages complètes
+"films" => "movies_list.php",
+"séries" => "serie.php",
+"jeux vidéo" => "jeux.php"
+
 ];
 
 $messageErreur = "";
@@ -116,7 +134,7 @@ if (isset($_GET['film'])) {
   <main>
     <h2>🔎 Recherche</h2>
     <form method="get" action="">
-      <input type="text" name="film" list="filmsList" placeholder="Tapez un titre de film ou série...">
+      <input type="text" name="film" list="filmsList" placeholder="Tapez un titre de film, de jeux ou série...">
       <datalist id="filmsList">
         <!-- Films -->
         <option value="Avengers">
@@ -145,6 +163,7 @@ if (isset($_GET['film'])) {
         <!-- Pages complètes -->
         <option value="Films">
         <option value="Séries">
+        <option value="Jeux Vidéo">
       </datalist>
       <button type="submit">Rechercher</button>
     </form>
