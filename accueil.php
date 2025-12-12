@@ -137,33 +137,51 @@ if (isset($_GET['film'])) {
       <input type="text" name="film" list="filmsList" placeholder="Tapez un titre de film, de jeux ou série...">
       <datalist id="filmsList">
         <!-- Films -->
-        <option value="Avengers">
-        <option value="Iron Man">
-        <option value="Spider-Man">
-        <option value="Batman">
-        <option value="Superman">
-        <option value="Star Wars">
-        <option value="Star Trek">
-        <option value="Le Seigneur des Anneaux">
-        <option value="Harry Potter">
-        <option value="Fast & Furious">
-        <!-- Séries -->
-        <option value="The Flash">
-        <option value="Arrow">
-        <option value="Supergirl">
-        <option value="Legends of Tomorrow">
-        <option value="Black Lightning">
-        <option value="Batwoman">
-        <option value="Superman & Lois">
-        <option value="Gotham">
-        <option value="Smallville">
-        <option value="Constantine">
-        <option value="Stargirl">
-        <option value="Titans">
-        <!-- Pages complètes -->
-        <option value="Films">
-        <option value="Séries">
-        <option value="Jeux Vidéo">
+      <option value="Avengers">
+<option value="Iron Man">
+<option value="Spider-Man">
+<option value="Batman">
+<option value="Superman">
+<option value="Star Wars">
+<option value="Star Trek">
+<option value="Le Seigneur des Anneaux">
+<option value="Harry Potter">
+<option value="Fast & Furious">
+<!-- Séries -->
+<option value="The Flash">
+<option value="Arrow">
+<option value="Supergirl">
+<option value="Legends of Tomorrow">
+<option value="Black Lightning">
+<option value="Batwoman">
+<option value="Superman & Lois">
+<option value="Gotham">
+<option value="Smallville">
+<option value="Constantine">
+<option value="Stargirl">
+<option value="Titans">
+<!-- Pages complètes -->
+<option value="Films">
+<option value="Séries">
+<option value="Jeux Vidéo">
+<!-- Jeux Vidéo -->
+<option value="The Legend of Zelda">
+<option value="Super Mario">
+<option value="Pokémon">
+<option value="Halo">
+<option value="League of Legends">
+<option value="Diablo">
+<option value="Half-Life">
+<option value="StarCraft">
+<option value="Counter-Strike">
+<option value="World of Warcraft">
+<option value="The Witcher">
+<option value="Minecraft">
+<option value="Fortnite">
+<option value="Call of Duty">
+<option value="Assassin’s Creed">
+<option value="Final Fantasy">
+
       </datalist>
       <button type="submit">Rechercher</button>
     </form>
