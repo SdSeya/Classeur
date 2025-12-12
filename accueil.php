@@ -109,6 +109,7 @@ if (isset($_GET['film'])) {
     <nav>
       <a href="movies_list.php">🎬 Films</a>
       <a href="serie.php">📺 Séries</a>
+      <a href="jeux.php">🎮 Jeux Vidéo</a>
     </nav>
   </header>
 
