@@ -82,7 +82,7 @@
   <main>
     <!-- Nintendo -->
     <section class="nintendo">
-      <h2><img src="icons/nintendo.png" alt="Logo Nintendo"> Séries Nintendo</h2>
+      <h2><img src="nlogo.png" alt="nlogo"> Séries Nintendo</h2>
       <div class="cards-grid">
         <div class="card"><h3>The Legend of Zelda</h3><p>La saga culte d’aventure où Link protège Hyrule à travers des dizaines d’épisodes.</p><a href="zelda.php">➡ Voir la saga Zelda</a></div>
         <div class="card"><h3>Super Mario</h3><p>La série emblématique de plateforme avec Mario, Luigi et leurs amis.</p><a href="mario.php">➡ Voir la saga Mario</a></div>
@@ -94,7 +94,7 @@
 
     <!-- PlayStation -->
     <section class="playstation">
-      <h2><img src="icons/playstation.png" alt="Logo PlayStation"> Séries PlayStation</h2>
+      <h2><img src="plogo.png" alt="plogo"> Séries PlayStation</h2>
       <div class="cards-grid">
         <div class="card"><h3>God of War</h3><p>La saga d’action où Kratos affronte les dieux grecs puis nordiques.</p><a href="gow.php">➡ Voir la saga God of War</a></div>
         <div class="card"><h3>The Last of Us</h3><p>Une série dramatique post-apocalyptique centrée sur Joel et Ellie.</p><a href="tlou.php">➡ Voir la saga TLOU</a></div>
@@ -106,7 +106,7 @@
 
     <!-- Xbox -->
     <section class="xbox">
-      <h2><img src="icons/xbox.png" alt="Logo Xbox"> Séries Xbox</h2>
+      <h2><img src="xlogo.png" alt="xlogo"> Séries Xbox</h2>
       <div class="cards-grid">
         <div class="card"><h3>Halo</h3><p>La saga culte de science-fiction où le Major et Cortana affrontent le Covenant et les Flood.</p><a href="halo.php">➡ Voir la saga Halo</a></div>
         <div class="card"><h3>Gears of War</h3><p>La série de tir à la troisième personne avec Marcus Fenix et Kait Diaz.</p><a href="gears.php">➡ Voir la saga Gears</a></div>
@@ -118,7 +118,7 @@
 
     <!-- PC -->
     <section class="pc">
-      <h2><img src="icons/pc.png" alt="Logo PC"> Séries PC</h2>
+      <h2><img src="pclogo.png" alt="pclogo"> Séries PC</h2>
       <div class="cards-grid">
         <div class="card"><h3>League of Legends</h3><p>Le MOBA compétitif mondialement connu.</p><a href="lol.php">➡ Voir la saga LoL</a></div>
         <div class="card"><h3>Counter-Strike</h3><p>La série culte de FPS compétitifs</p><a href="counterstrike.php">➡ Voir la saga Counter-Strike</a></div>
