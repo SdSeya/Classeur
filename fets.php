@@ -106,85 +106,24 @@
     <section>
       <h2>Jeux Vidéo</h2>
       <div class="cards-grid">
-        <div class="card">
-          <h3>The Legend of Zelda</h3>
-          <p>Revivez les aventures de Link à travers Hyrule.</p>
-          <a href="zelda.php">➡ Voir la saga Zelda</a>
-        </div>
-        <div class="card">
-          <h3>Super Mario</h3>
-          <p>Les aventures de Mario, Luigi et leurs amis dans des mondes variés.</p>
-          <a href="mario.php">➡ Voir la saga Mario</a>
-        </div>
-        <div class="card">
-          <h3>Pokémon</h3>
-          <p>Attrapez-les tous à travers les différentes générations.</p>
-          <a href="pokemon.php">➡ Voir la saga Pokémon</a>
-        </div>
-        <div class="card">
-          <h3>Halo</h3>
-          <p>Le Major et Cortana affrontent le Covenant et les Flood.</p>
-          <a href="halo.php">➡ Voir la saga Halo</a>
-        </div>
-        <div class="card">
-          <h3>League of Legends</h3>
-          <p>Le MOBA culte avec ses champions et ses stratégies.</p>
-          <a href="lol.php">➡ Voir la page LoL</a>
-        </div>
-        <div class="card">
-          <h3>Diablo</h3>
-          <p>La série d’action-RPG de Blizzard où l’on affronte les forces démoniaques.</p>
-          <a href="diablo.php">➡ Voir la saga Diablo</a>
-        </div>
-        <div class="card">
-          <h3>Half-Life</h3>
-          <p>La série culte de Valve avec Gordon Freeman, pionnière du FPS narratif.</p>
-          <a href="halflife.php">➡ Voir la saga Half-Life</a>
-        </div>
-        <div class="card">
-          <h3>StarCraft</h3>
-          <p>La série de stratégie en temps réel opposant Terrans, Protoss et Zergs.</p>
-          <a href="starcraft.php">➡ Voir la saga StarCraft</a>
-        </div>
-        <div class="card">
-          <h3>Counter-Strike</h3>
-          <p>La série culte de FPS compétitifs, de CS 1.6 à CS:GO et CS2.</p>
-          <a href="counterstrike.php">➡ Voir la saga Counter-Strike</a>
-        </div>
-        <div class="card">
-          <h3>World of Warcraft</h3>
-          <p>MMORPG culte dans l’univers d’Azeroth, avec raids et quêtes épiques.</p>
-          <a href="wow.php">➡ Voir la page WoW</a>
-        </div>
-        <div class="card">
-          <h3>The Witcher</h3>
-          <p>Action-RPG où Geralt de Riv part à la recherche de Ciri dans un monde ouvert.</p>
-          <a href="witcher.php">➡ Voir la saga The Witcher</a>
-        </div>
-        <div class="card">
-          <h3>Minecraft</h3>
-          <p>Construisez, explorez et survivez dans un monde cubique infini.</p>
-          <a href="minecraft.php">➡ Voir la page Minecraft</a>
-        </div>
-        <div class="card">
-          <h3>Fortnite</h3>
-          <p>Battle Royale mondialement connu avec construction et affrontements.</p>
-          <a href="fortnite.php">➡ Voir la page Fortnite</a>
-        </div>
-        <div class="card">
-          <h3>Call of Duty</h3>
-          <p>La série de FPS militaire emblématique.</p>
-          <a href="callofduty.php">➡ Voir la saga Call of Duty</a>
-        </div>
-        <div class="card">
-          <h3>Assassin’s Creed</h3>
-          <p>Explorez l’histoire à travers les yeux des Assassins.</p>
-          <a href="assassinscreed.php">➡ Voir la saga Assassin’s Creed</a>
-        </div>
-        <div class="card">
-          <h3>Final Fantasy</h3>
-          <p>La saga culte de RPG japonais avec des mondes et histoires variés.</p>
-          <a href="finalfantasy.php">➡ Voir la saga Final Fantasy</a>
-        </div>
+        <div class="card"><h3>The Legend of Zelda</h3><p>La saga culte d’aventure où Link protège Hyrule à travers des dizaines d’épisodes.</p><a href="zelda.php">➡ Voir la saga Zelda</a></div>
+        <div class="card"><h3>Super Mario</h3><p>La série emblématique de plateforme avec Mario, Luigi et leurs amis.</p><a href="mario.php">➡ Voir la saga Mario</a></div>
+        <div class="card"><h3>Pokémon</h3><p>La série RPG où l’on capture et entraîne des créatures à travers plusieurs générations.</p><a href="pokemon.php">➡ Voir la saga Pokémon</a></div>
+        <div class="card"><h3>Animal Crossing</h3><p>Une série de simulation de vie où l’on développe son village ou son île.</p><a href="animalcrossing.php">➡ Voir la saga Animal Crossing</a></div>
+        <div class="card"><h3>Metroid</h3><p>La saga de science-fiction où Samus Aran combat les pirates de l’espace et les Métroïdes.</p><a href="metroid.php">➡ Voir la saga Metroid</a></div>
+        <div class="card"><h3>Halo</h3><p>La saga culte de science-fiction où le Major et Cortana affrontent le Covenant et les Flood.</p><a href="halo.php">➡ Voir la saga Halo</a></div>
+        <div class="card"><h3>Gears of War</h3><p>La série de tir à la troisième personne avec Marcus Fenix et Kait Diaz.</p><a href="gears.php">➡ Voir la saga Gears</a></div>
+        <div class="card"><h3>Forza Horizon</h3><p>La série de jeux de course en monde ouvert.</p><a href="forza.php">➡ Voir la saga Forza</a></div>
+        <div class="card"><h3>Sea of Thieves</h3><p>Une série multijoueur où l’on incarne des pirates.</p><a href="seaofthieves.php">➡ Voir la saga Sea of Thieves</a></div>
+        <div class="card"><h3>Fable</h3><p>La série RPG où les choix du joueur influencent son destin.</p><a href="fable.php">➡ Voir la saga Fable</a></div>
+        <div class="card"><h3>God of War</h3><p>La saga d’action où Kratos affronte les dieux grecs puis nordiques.</p><a href="gow.php">➡ Voir la saga God of War</a></div>
+        <div class="card"><h3>The Last of Us</h3><p>Une série dramatique post-apocalyptique centrée sur Joel et Ellie.</p><a href="tlou.php">➡ Voir la saga TLOU</a></div>
+        <div class="card"><h3>Horizon</h3><p>La série futuriste où Aloy explore un monde peuplé de machines.</p><a href="horizon.php">➡ Voir la saga Horizon</a></div>
+        <div class="card"><h3>Spider-Man</h3><p>Les aventures de Peter Parker adaptées en jeux vidéo modernes.</p><a href="spiderman.php">➡ Voir la saga Spider-Man</a></div>
+        <div class="card"><h3>Bloodborne</h3><p>Un action-RPG sombre, héritier spirituel de la série Souls.</p><a href="bloodborne.php">➡ Voir la saga Bloodborne</a></div>
+        <div class="card"><h3>League of Legends</h3><p>Le MOBA compétitif mondialement connu.</p><a href="lol.php">➡ Voir la saga LoL</a></div>
+        <div class="card"><h3>Counter-Strike</h3><p>La série culte de FPS compétitifs</p><a href="counterstrike.php">➡ Voir la saga Counter-Strike</a></div>
+        <div class="card"><h3>Diablo</h3><p>La série d’action-RPG de Blizzard où l’on affronte les forces démoniaques.</p><a href="diablo.php">➡ Voir la saga Diablo</a></div>
+        <div class="card"><h3>Half-Life</h3><p>La série culte de Valve avec Gordon Freeman, pionnière du FPS narratif.</p><a href="halflife.php">➡ Voir la saga Half-Life</a></div>
       </div>
     </section>
