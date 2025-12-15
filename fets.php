@@ -109,22 +109,22 @@
         <div class="card">
           <h3>The Legend of Zelda</h3>
           <p>Revivez les aventures de Link à travers Hyrule.</p>
-          <a href="zelda_series.php">➡ Voir la saga Zelda</a>
+          <a href="zelda.php">➡ Voir la saga Zelda</a>
         </div>
         <div class="card">
           <h3>Super Mario</h3>
           <p>Les aventures de Mario, Luigi et leurs amis dans des mondes variés.</p>
-          <a href="mario_series.php">➡ Voir la saga Mario</a>
+          <a href="mario.php">➡ Voir la saga Mario</a>
         </div>
         <div class="card">
           <h3>Pokémon</h3>
           <p>Attrapez-les tous à travers les différentes générations.</p>
-          <a href="pokemon_series.php">➡ Voir la saga Pokémon</a>
+          <a href="pokemon.php">➡ Voir la saga Pokémon</a>
         </div>
         <div class="card">
           <h3>Halo</h3>
           <p>Le Major et Cortana affrontent le Covenant et les Flood.</p>
-          <a href="halo_series.php">➡ Voir la saga Halo</a>
+          <a href="halo.php">➡ Voir la saga Halo</a>
         </div>
         <div class="card">
           <h3>League of Legends</h3>
@@ -134,22 +134,22 @@
         <div class="card">
           <h3>Diablo</h3>
           <p>La série d’action-RPG de Blizzard où l’on affronte les forces démoniaques.</p>
-          <a href="diablo_series.php">➡ Voir la saga Diablo</a>
+          <a href="diablo.php">➡ Voir la saga Diablo</a>
         </div>
         <div class="card">
           <h3>Half-Life</h3>
           <p>La série culte de Valve avec Gordon Freeman, pionnière du FPS narratif.</p>
-          <a href="halflife_series.php">➡ Voir la saga Half-Life</a>
+          <a href="halflife.php">➡ Voir la saga Half-Life</a>
         </div>
         <div class="card">
           <h3>StarCraft</h3>
           <p>La série de stratégie en temps réel opposant Terrans, Protoss et Zergs.</p>
-          <a href="starcraft_series.php">➡ Voir la saga StarCraft</a>
+          <a href="starcraft.php">➡ Voir la saga StarCraft</a>
         </div>
         <div class="card">
           <h3>Counter-Strike</h3>
           <p>La série culte de FPS compétitifs, de CS 1.6 à CS:GO et CS2.</p>
-          <a href="counterstrike_series.php">➡ Voir la saga Counter-Strike</a>
+          <a href="counterstrike.php">➡ Voir la saga Counter-Strike</a>
         </div>
         <div class="card">
           <h3>World of Warcraft</h3>
@@ -159,7 +159,7 @@
         <div class="card">
           <h3>The Witcher</h3>
           <p>Action-RPG où Geralt de Riv part à la recherche de Ciri dans un monde ouvert.</p>
-          <a href="witcher_series.php">➡ Voir la saga The Witcher</a>
+          <a href="witcher.php">➡ Voir la saga The Witcher</a>
         </div>
         <div class="card">
           <h3>Minecraft</h3>
@@ -174,17 +174,17 @@
         <div class="card">
           <h3>Call of Duty</h3>
           <p>La série de FPS militaire emblématique.</p>
-          <a href="callofduty_series.php">➡ Voir la saga Call of Duty</a>
+          <a href="callofduty.php">➡ Voir la saga Call of Duty</a>
         </div>
         <div class="card">
           <h3>Assassin’s Creed</h3>
           <p>Explorez l’histoire à travers les yeux des Assassins.</p>
-          <a href="assassinscreed_series.php">➡ Voir la saga Assassin’s Creed</a>
+          <a href="assassinscreed.php">➡ Voir la saga Assassin’s Creed</a>
         </div>
         <div class="card">
           <h3>Final Fantasy</h3>
           <p>La saga culte de RPG japonais avec des mondes et histoires variés.</p>
-          <a href="finalfantasy_series.php">➡ Voir la saga Final Fantasy</a>
+          <a href="finalfantasy.php">➡ Voir la saga Final Fantasy</a>
         </div>
       </div>
     </section>
