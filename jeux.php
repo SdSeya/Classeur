@@ -99,7 +99,7 @@
         <div class="card"><h3>God of War</h3><p>La saga d’action où Kratos affronte les dieux grecs puis nordiques.</p><a href="gow.php">➡ Voir la saga God of War</a></div>
         <div class="card"><h3>The Last of Us</h3><p>Une série dramatique post-apocalyptique centrée sur Joel et Ellie.</p><a href="tlou.php">➡ Voir la saga TLOU</a></div>
         <div class="card"><h3>Horizon</h3><p>La série futuriste où Aloy explore un monde peuplé de machines.</p><a href="horizon.php">➡ Voir la saga Horizon</a></div>
-        <div class="card"><h3>Spider-Man</h3><p>Les aventures de Peter Parker adaptées en jeux vidéo modernes.</p><a href="spiderman.php">➡ Voir la saga Spider-Man</a></div>
+        <div class="card"><h3>Spider-Man</h3><p>Les aventures de Peter Parker adaptées en jeux vidéo modernes.</p><a href="smg.php">➡ Voir la saga Spider-Man</a></div>
         <div class="card"><h3>Bloodborne</h3><p>Un action-RPG sombre, héritier spirituel de la série Souls.</p><a href="bloodborne.php">➡ Voir la saga Bloodborne</a></div>
       </div>
     </section>

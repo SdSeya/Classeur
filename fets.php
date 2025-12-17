@@ -119,11 +119,38 @@
         <div class="card"><h3>God of War</h3><p>La saga d’action où Kratos affronte les dieux grecs puis nordiques.</p><a href="gow.php">➡ Voir la saga God of War</a></div>
         <div class="card"><h3>The Last of Us</h3><p>Une série dramatique post-apocalyptique centrée sur Joel et Ellie.</p><a href="tlou.php">➡ Voir la saga TLOU</a></div>
         <div class="card"><h3>Horizon</h3><p>La série futuriste où Aloy explore un monde peuplé de machines.</p><a href="horizon.php">➡ Voir la saga Horizon</a></div>
-        <div class="card"><h3>Spider-Man</h3><p>Les aventures de Peter Parker adaptées en jeux vidéo modernes.</p><a href="spiderman.php">➡ Voir la saga Spider-Man</a></div>
+        <div class="card"><h3>Spider-Man</h3><p>Les aventures de Peter Parker adaptées en jeux vidéo modernes.</p><a href="smg.php">➡ Voir la saga Spider-Man</a></div>
         <div class="card"><h3>Bloodborne</h3><p>Un action-RPG sombre, héritier spirituel de la série Souls.</p><a href="bloodborne.php">➡ Voir la saga Bloodborne</a></div>
         <div class="card"><h3>League of Legends</h3><p>Le MOBA compétitif mondialement connu.</p><a href="lol.php">➡ Voir la saga LoL</a></div>
         <div class="card"><h3>Counter-Strike</h3><p>La série culte de FPS compétitifs</p><a href="counterstrike.php">➡ Voir la saga Counter-Strike</a></div>
         <div class="card"><h3>Diablo</h3><p>La série d’action-RPG de Blizzard où l’on affronte les forces démoniaques.</p><a href="diablo.php">➡ Voir la saga Diablo</a></div>
         <div class="card"><h3>Half-Life</h3><p>La série culte de Valve avec Gordon Freeman, pionnière du FPS narratif.</p><a href="halflife.php">➡ Voir la saga Half-Life</a></div>
+        <div class="card"><h3>Assassin's Creed</h3><p>La saga historique mêlant action et furtivité.</p><a href="assassinscreed.php">➡ Voir la saga Assassin's Creed</a></div>
+        <div class="card"><h3>Fortnite</h3><p>Le battle royale phénomène mondial avec construction et défis.</p><a href="fortnite.php">➡ Voir la saga Fortnite</a></div>
+
+<div class="card">
+  <h3>Final Fantasy</h3>
+  <p>La célèbre série de RPG aux univers fantastiques et épiques.</p>
+  <a href="finalfantasy.php">➡ Voir la saga Final Fantasy</a>
+</div>
+
+<div class="card">
+  <h3>Call of Duty</h3>
+  <p>Les jeux de tir à la première personne emblématiques et immersifs.</p>
+  <a href="callofduty.php">➡ Voir la saga Call of Duty</a>
+</div>
+
+<div class="card">
+  <h3>The Witcher</h3>
+  <p>Les aventures sombres de Geralt dans un monde de fantasy mature.</p>
+  <a href="thewitcher.php">➡ Voir la saga The Witcher</a>
+</div>
+
+<div class="card">
+  <h3>Starcraft</h3>
+  <p>Le RTS emblématique de stratégie interstellaire.</p>
+  <a href="starcraft.php">➡ Voir la saga Starcraft</a>
+</div>
+
       </div>
     </section>
